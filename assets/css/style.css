@@ -1,0 +1,157 @@
+a:visited{color: gray}
+a:link{text-decoration:none;}
+a:hover{background-color:#4aaaa5; color: white;}
+a.linkimagen{color: white}
+a.linkimagen:active{font-weight: bold}
+
+.clearfix::after {
+content: "";
+display: block;
+clear:both;}
+
+/* AQUI SE ENCUENTRA ENCAMPSULADO TODA LA PARTE DE ARRIBA DE LA PAGINA */
+#top {
+    background-color: #ffffff; 
+    height:90px;
+    border: 1px solid #cccccc;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+#cuerpo{
+margin-bottom:100px;
+}
+
+#divisioncuerpo{
+    margin-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height:auto;
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+}
+
+/* AQUI SE ENCUENTRA EL TEXTO DE "ABOUT ME" */
+#cuerpoheading {
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-left:30px;
+    font-family: Arial,'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-bottom: 2px solid #cccccc;
+
+}
+/* AQUI SE ENCUENTRA EL PARRAFO E IMAGEN */
+#cuerpotexto {
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:30px;
+    font-family: Arial,'Helvetica Neue', Helvetica, sans-serif;
+    color: gray;
+    font-size: large;
+    line-height: 2;
+    text-align: justify;
+
+}
+ #imagen {
+    height:250px;
+    float: left;
+    padding-right:30px;
+    padding-top:10px;
+
+ }
+/* SE ENCUENTRA LA PARTE QUE CONTIENE TEXTO DE LA PARTE SUPERIOR DE LA PAGINA */
+#encabezado {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height:90px;
+    background-color: #ffffff;
+}
+
+
+#menu {
+    float: right;
+    height:90px;
+    background-color:#ffffff;
+    color: #999999;
+    align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+}
+
+#nombre {
+    float: left;
+    height:90px;
+    background-color:#4aaaa5;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+    vertical-align: middle;
+}
+
+/* AQUI SE ENCUENTRA EL TEXTO CON MI NOMBRE */
+#nombretext{
+    margin-left:15px;
+    margin-right:15px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#footer {
+    text-align: center;
+    background-color: gray; 
+    height:60px;
+    border-top: 10px solid #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+#footertext {
+    padding-top:30px;
+    position: absolute;
+    left: 50%;
+}
+
+.espacioimagen {
+    padding-top:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    height: 200px;
+    width: 300px;
+}
+
+.textoimagen{
+    color: white;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+.imagen {height: 200px}
+
+#boton {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.input{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+body{background-image: url("../images/circles-light.png");}
+
+/* body {background-image: url("htmlcss.jpg")} */
